@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+:root {
+    --ada-blue: #336178;
+    --ada-red: #ae485e;
+}
+.bla {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(1, 34, 9);
+    color:#ffff
+
+}
+
+.bla ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    width: 45%;
+}
+
+.bla ul li {
+    flex-grow: 1;
+    color:#ffff
+    
+}
+
+.bla ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: left;
+}
+
+.bla img {
+    height: 50px;
+    padding-bottom: 13px;
+    margin-left: 10px;
+}
+
+.bla h2 {
+    padding-right: 550px;
+    padding-top: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.bla li:hover {
+    transform: translateY(-5px); 
+    transition-duration: 0.5s;
+}
+
+.bla a img {
+    display: inline-block;
+}
+
+.bla a:hover {
+    color: var(--text-light);
+}
+
+.bla a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+.bla h2, .bla img {
+white-space: nowrap;
+}
+
+#art-canvas {
+    width: 100%;
+    height: 100%;
+}
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,169 @@
+:root {
+    --ada-blue: #336178;
+    --ada-red: #ae485e;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;       
+     padding: 0;
+    line-height: 1.6;
+    background-color:  rgb(68, 121, 73);
+}
+.bla {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(1, 34, 9);
+    color:#ffff
+
+}
+
+.bla ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    width: 45%;
+}
+
+.bla ul li {
+    flex-grow: 1;
+    color:#ffff
+    
+}
+
+.bla ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: left;
+}
+
+.bla img {
+    height: 50px;
+    padding-bottom: 13px;
+    margin-left: 10px;
+}
+
+.bla h2 {
+    padding-right: 550px;
+    padding-top: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.bla li:hover {
+    transform: translateY(-5px); 
+    transition-duration: 0.5s;
+}
+
+.bla a img {
+    display: inline-block;
+}
+
+.bla a:hover {
+    color: var(--text-light);
+}
+
+.bla a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+.bla h2, .bla img {
+white-space: nowrap;
+}
+.introduce h1 {
+    text-align: center;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    background: #4CAF50 ;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Logo and Team Name Section */
+.logo-and-name {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    margin: 2rem auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+.logo-and-name .logo {
+    width: 150px;
+    height: auto;
+    margin: 1rem 0;
+}
+
+.logo-and-name img {
+    border-radius: 100%;
+}
+
+.logo-and-name h2 {
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+}
+
+.logo-and-name h3 {
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+
+/* General Info Section */
+.general-info {
+    padding: 2rem;
+    background-color: #eef5ee;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.general-info h2 {
+    font-size: 1.8rem;
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+.general-info p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}

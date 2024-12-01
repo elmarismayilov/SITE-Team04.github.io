@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- 
+    SITE 1101 Principles of Information Systems 
+    (c)202X by Name Surname zzz
+    Submitted in partial fulfillment of the requirements of the course.
+-->
+<html>
+    <head>
+        <title>Homework 3: Programming art</title>
+        <link rel="stylesheet" href="cssofcodart.css">  
+        <script type="text/javascript" src="scripts.js"></script>      
+    </head>
+    <body>
+        <nav class="bla">
+            <a href="https://www.ada.edu.az/en" target="_blank">
+            <img src="/media/ada_logo_color.png" alt="Logo" ></a>
+            <h2 class="h2">TEAM 04</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="team-members.html">Team Members</a></li>
+                <li><a href="hour-of-code.html">Hour of Code</a></li>
+                <li><a href="web-project.html">Web Project</a></li>
+                <li><a href="code-artist.html">Code Art</a></li>
+            </ul>
+        </nav>
+        <div style="text-align:center">
+            <canvas id="art-canvas" width="640" height="480">
+                Sorry ... your browser doesn't support the HTML5 canvas element.
+            </canvas>        
+        </div>          
+
+        <script type="text/javascript">
+            // Get reference to the 2D context of the canvas
+            let canvas = document.getElementById("art-canvas");
+            let context = canvas.getContext("2d");
+            // Set the color for drawing lines using red, green and blue components
+            // context.strokeStyle = 'rgb(255, 0, 0)';
+            context.strokeStyle = `rgb(${255 * Math.random()}, ${255 * Math.random()}, ${255 * Math.random()})`;
+            DrawSpiral(context);
+        </script>
+                <footer class="footer">
+                    <p>© 2024 4T4 Team | <a href="https://www.instagram.com/team04site1101?igsh=cDJnbm1hbzE4Ymlo">team04site1101</a> </p>
+                </footer>
+    </body>
+</html>
